@@ -1,0 +1,12 @@
+<?php
+if (isset($_POST['name pada bagian input'])){
+$nama=$_POST['nama (sesuaikan dengan name pada bagian input)'];
+}
+?>
+
+<tr>
+<td>Nama</td> (Judul kolom) 
+</tr>
+<tr>
+<td> <?php echo $nama;?> </td> (data yang diinputkan)
+<tr>
